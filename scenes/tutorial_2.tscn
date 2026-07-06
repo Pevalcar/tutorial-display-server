@@ -51,12 +51,12 @@ layout_mode = 2
 [node name="BtnFullscreen" type="Button" parent="MarginContainer/VBoxContainer/ButtonsContainer" unique_id=348277701]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Pantalla Completa"
+text = "Pantalla Completa (sin bordes)"
 
 [node name="BtnExclusive" type="Button" parent="MarginContainer/VBoxContainer/ButtonsContainer" unique_id=1849063683]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Fullscreen Exclusivo"
+text = "Pantalla completa"
 
 [node name="BtnWindowed" type="Button" parent="MarginContainer/VBoxContainer/ButtonsContainer" unique_id=1492648035]
 unique_name_in_owner = true
