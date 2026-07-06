@@ -1,0 +1,12 @@
+# Godot
+.godot/
+
+# Agent skills & config
+.agents/
+skills-lock.json
+
+# Android export
+/android/
+
+# Tutorial reference docs
+/guiones/

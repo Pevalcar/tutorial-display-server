@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/level3_3d.gd" id="1_qdwni"]
+
+[sub_resource type="BoxMesh" id=1]
+
+[sub_resource type="CapsuleMesh" id=2]
+
+[sub_resource type="Environment" id=3]
+background_mode = 0
+ambient_light_color = Color(0.15, 0.15, 0.2, 1)
+ambient_light_sky_contribution = 0.0
+
+[node name="Level3D" type="Node3D"]
+script = ExtResource("1_qdwni")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+unique_name_in_owner = true
+position = Vector3(0, 3, 5)
+near = 0.1
+far = 100.0
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-30, -45, 0)
+light_energy = 1.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource(3)
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource(1)
+
+[node name="Player" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1, 0)
+mesh = SubResource(2)
