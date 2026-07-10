@@ -1,33 +1,57 @@
-# Tutoria Display Server
+# 🎮 Tutoria Display Server
 
-A collection of Godot 4 tutorials covering the **DisplayServer** API — window management, multiple windows, screens, clipboard, cursor handling, and more.
+> **Godot 4 tutorials** exploring the full **DisplayServer** API — windows, screens, clipboard, cursor, accessibility, multi-window (PIP), and more.
 
-> The tutorials are in **Spanish**. Links to the YouTube sessions will be added here once published.
+[![YouTube](https://img.shields.io/badge/YouTube-@Pevalcar-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Pevalcar)
+[![ko-fi](https://img.shields.io/badge/Ko--fi-Support_me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/pevalcar)
+![Godot](https://img.shields.io/badge/Godot-4.7+-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 
-## Sessions
+---
 
-| # | Topic | Video |
-|---|-------|-------|
-| 1 | Getting started with DisplayServer | _pending_ |
-| 2 | Window management | _pending_ |
-| 3 | Multi-window support | _pending_ |
-| 4 | Display screens and settings | _pending_ |
+## 📺 Canal de YouTube
 
-*(More sessions coming soon)*
+Para mas contenido en general y desarrollo en Godot 4.
 
-## Getting Started
+👉 [**youtube.com/@Pevalcar**](https://www.youtube.com/@Pevalcar)
 
-1. Open the project in **Godot 4.7+** (GL Compatibility renderer).
-2. Run any scene under `scenes/` to follow along with the corresponding tutorial.
+---
 
-## License
+## 📹 Video de presentación
 
-This project is dedicated to the public domain under the [Unlicense](https://unlicense.org/). You are free to use, modify, distribute, and sell it for any purpose, with or without attribution.
+*(Aquí irá un video de presentación del repositorio — próximamente)*
 
-## Support
+---
 
-If you find these tutorials helpful, consider supporting me:
+## 🎬 Sesiones
+
+| # | Tema | Video |
+|---|------|-------|
+| 1 | Introducción a DisplayServer | _próximamente_ |
+| 2 | Gestión de ventanas y flags | _próximamente_ |
+| 3 | Multi-ventana (PIP) y cursor | _próximamente_ |
+| 4 | Accesibilidad, TTS y sistema | _próximamente_ |
+
+*(Más sesiones en camino)*
+
+---
+
+## 🚀 Cómo usar
+
+1. Abre el proyecto en **Godot 4.7+** (renderizador GL Compatibility).
+2. Ejecuta cualquier escena en `scenes/` para seguir el tutorial correspondiente.
+
+---
+
+## ☕ Apoya el proyecto
+
+Si estos tutoriales te son útiles, considera invitarme un café:
 
 <a href="https://ko-fi.com/pevalcar">
-  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" width="160">
+  <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" width="180">
 </a>
+
+---
+
+## 📜 Licencia
+
+Dedicado al dominio público bajo [Unlicense](https://unlicense.org/). Eres libre de usar, modificar, distribuir y vender este proyecto para cualquier propósito, con o sin atribución.

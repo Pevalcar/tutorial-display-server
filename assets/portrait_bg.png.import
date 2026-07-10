@@ -17,6 +17,7 @@ dest_files=["res://.godot/imported/portrait_bg.png-566f0505de8e0c9f2a9388980944f
 
 compress/mode=0
 compress/high_quality=false
+compress/high_quality_mode=0
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0

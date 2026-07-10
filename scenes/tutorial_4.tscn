@@ -1,16 +1,18 @@
-[gd_scene format=3 uid="uid://c2cfm5j8t7q0p"]
+[gd_scene format=3 uid="uid://c2cfm5j8t7q0s"]
 
-[ext_resource type="Script" path="res://scripts/tutorial_4.gd" id="1"]
+[ext_resource type="Script" uid="uid://cghawktvo12ts" path="res://scripts/tutorial_4.gd" id="1"]
 
-[node name="Tutorial4" type="Control"]
+[node name="Tutorial4" type="Control" unique_id=803966493]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 mouse_filter = 1
 script = ExtResource("1")
 
-[node name="MarginContainer" type="MarginContainer" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=281515462]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -22,131 +24,131 @@ theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1592620011]
 layout_mode = 2
 
-[node name="Title" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Title" type="Label" parent="MarginContainer/VBoxContainer" unique_id=786008139]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.5563933, 0.76737565, 0.8808251, 1)
 theme_override_font_sizes/font_size = 20
 text = "Tutorial 4: Accesibilidad, Sistema & Multi-Window"
 horizontal_alignment = 1
 
-[node name="Subtitle" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="Subtitle" type="Label" parent="MarginContainer/VBoxContainer" unique_id=860289036]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.7977378, 0.7977378, 0.7977378, 1)
 theme_override_font_sizes/font_size = 18
 text = "Accesibilidad, teclado virtual, clipboard, TTS y PIP"
 horizontal_alignment = 1
 
-[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=855887913]
 layout_mode = 2
 
-[node name="DarkModeInfo" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="DarkModeInfo" type="Label" parent="MarginContainer/VBoxContainer" unique_id=404958471]
 unique_name_in_owner = true
 layout_mode = 2
 horizontal_alignment = 1
 
-[node name="AccInfo" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="AccInfo" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1319487692]
 unique_name_in_owner = true
 layout_mode = 2
 horizontal_alignment = 1
 
-[node name="BtnKeyboard" type="Button" parent="MarginContainer/VBoxContainer"]
+[node name="BtnKeyboard" type="Button" parent="MarginContainer/VBoxContainer" unique_id=884201444]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Mostrar Teclado Virtual"
 
-[node name="OrientationInfo" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="OrientationInfo" type="Label" parent="MarginContainer/VBoxContainer" unique_id=812821162]
 unique_name_in_owner = true
 layout_mode = 2
 horizontal_alignment = 1
 
-[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=200663743]
 layout_mode = 2
 
-[node name="ClipHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="ClipHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1937601794]
 layout_mode = 2
 alignment = 1
 
-[node name="ClipLabel" type="Label" parent="MarginContainer/VBoxContainer/ClipHBox"]
+[node name="ClipLabel" type="Label" parent="MarginContainer/VBoxContainer/ClipHBox" unique_id=252199387]
 layout_mode = 2
 text = "Portapapeles:"
 
-[node name="ClipInput" type="LineEdit" parent="MarginContainer/VBoxContainer/ClipHBox"]
+[node name="ClipInput" type="LineEdit" parent="MarginContainer/VBoxContainer/ClipHBox" unique_id=1115127942]
 unique_name_in_owner = true
-layout_mode = 2
 custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
 placeholder_text = "Escribe algo para copiar..."
 
-[node name="BtnCopy" type="Button" parent="MarginContainer/VBoxContainer/ClipHBox"]
+[node name="BtnCopy" type="Button" parent="MarginContainer/VBoxContainer/ClipHBox" unique_id=1858049485]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Copiar"
 
-[node name="BtnPaste" type="Button" parent="MarginContainer/VBoxContainer/ClipHBox"]
+[node name="BtnPaste" type="Button" parent="MarginContainer/VBoxContainer/ClipHBox" unique_id=668706308]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Pegar"
 
-[node name="TTSTitle" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="TTSTitle" type="Label" parent="MarginContainer/VBoxContainer" unique_id=341529009]
 unique_name_in_owner = true
 layout_mode = 2
 horizontal_alignment = 1
 
-[node name="TTSHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="TTSHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=2019255615]
 layout_mode = 2
 alignment = 1
 
-[node name="TTSInput" type="LineEdit" parent="MarginContainer/VBoxContainer/TTSHBox"]
+[node name="TTSInput" type="LineEdit" parent="MarginContainer/VBoxContainer/TTSHBox" unique_id=71041582]
 unique_name_in_owner = true
-layout_mode = 2
 custom_minimum_size = Vector2(300, 0)
-placeholder_text = "Texto a leer..."
+layout_mode = 2
 text = "Bienvenido al tutorial de DisplayServer"
+placeholder_text = "Texto a leer..."
 
-[node name="BtnSpeak" type="Button" parent="MarginContainer/VBoxContainer/TTSHBox"]
+[node name="BtnSpeak" type="Button" parent="MarginContainer/VBoxContainer/TTSHBox" unique_id=1525940087]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Leer"
 
-[node name="BtnStop" type="Button" parent="MarginContainer/VBoxContainer/TTSHBox"]
+[node name="BtnStop" type="Button" parent="MarginContainer/VBoxContainer/TTSHBox" unique_id=1596411765]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Detener"
 
-[node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=975165264]
 layout_mode = 2
 
-[node name="PIPHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="PIPHBox" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=831860090]
 layout_mode = 2
 alignment = 1
 
-[node name="BtnCreatePIP" type="Button" parent="MarginContainer/VBoxContainer/PIPHBox"]
+[node name="BtnCreatePIP" type="Button" parent="MarginContainer/VBoxContainer/PIPHBox" unique_id=1146065683]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Crear Ventana PIP"
 
-[node name="BtnDestroyPIP" type="Button" parent="MarginContainer/VBoxContainer/PIPHBox"]
+[node name="BtnDestroyPIP" type="Button" parent="MarginContainer/VBoxContainer/PIPHBox" unique_id=611142117]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Cerrar PIP"
 disabled = true
+text = "Cerrar PIP"
 
-[node name="DisplayInfo" type="RichTextLabel" parent="MarginContainer/VBoxContainer"]
+[node name="DisplayInfo" type="RichTextLabel" parent="MarginContainer/VBoxContainer" unique_id=969395080]
 unique_name_in_owner = true
 layout_mode = 2
 bbcode_enabled = true
 scroll_active = false
 
-[node name="HSeparator4" type="HSeparator" parent="MarginContainer/VBoxContainer"]
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/VBoxContainer" unique_id=1288909851]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=1667473013]
 layout_mode = 2
 alignment = 1
 
-[node name="ResetButton" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer"]
+[node name="ResetButton" type="Button" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=956946917]
 unique_name_in_owner = true
 layout_mode = 2
 text = "Reiniciar Tutorial"
